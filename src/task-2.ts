@@ -1,12 +1,12 @@
 interface Product {
 	readonly id: number;
-	name: string;
+	title: string;
 	description?: string;
 }
 
 const product: Product = {
 	id: 1,
-	name: 'Watch',
+	title: 'Watch',
 	description: 'A stylish wristwatch',
 };
 
