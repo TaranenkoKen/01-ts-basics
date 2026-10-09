@@ -4,13 +4,12 @@ const ratings: number[] = [1, 2, 3];
 
 interface Product {
 	id: number;
-	name: string;
-	price: number;
+	title: string;
 }
 
 const products: Product[] = [
-	{ id: 1, name: 'Headphones', price: 999 },
-	{ id: 2, name: 'Mouse', price: 555 },
+	{ id: 1, title: 'Headphones' },
+	{ id: 2, title: 'Mouse' },
 ];
 
 console.log(`Usernames: ${JSON.stringify(usernames)}`);
